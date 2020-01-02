@@ -11,9 +11,7 @@ public class FacebookForgotAccount {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.facebook.com/");
-		String actualTitle = driver.getTitle().trim();
-		//in case there is a space at the beginning or end of the title
-		//use trim() method 
+		String actualTitle = driver.getTitle(); 
 		
 		String expectedTitle = "Facebook - Log In or Sign Up";
 		

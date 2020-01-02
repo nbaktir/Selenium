@@ -45,7 +45,7 @@ public class FacebookSignUp {
 		}
 		
 		
-	//	driver.close();
+		driver.close();
 	
 	}
 

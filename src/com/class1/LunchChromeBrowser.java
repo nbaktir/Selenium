@@ -34,13 +34,13 @@ public class LunchChromeBrowser {
 		
 		driver.close();	
 		
-//		System.setProperty("webdriver.gecko.driver","drivers/geckodriver");
-//		WebDriver driver1 = new FirefoxDriver();
-//		
-//		driver1.get("https://github.com/");
-//		String title1 = driver1.getTitle();
-//		System.out.println(title1);
-//		driver1.close();
+		System.setProperty("webdriver.gecko.driver","drivers/geckodriver");
+		WebDriver driver1 = new FirefoxDriver();
+		
+		driver1.get("https://github.com/");
+		String title1 = driver1.getTitle();
+		System.out.println(title1);
+		driver1.close();
 		
 	}
 
